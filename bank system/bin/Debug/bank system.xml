@@ -1,0 +1,351 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+bank system
+</name>
+</assembly>
+<members>
+<member name="T:bank_system.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:bank_system.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:bank_system.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:bank_system.acctsDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:bank_system.acctsDataSet.tblacctsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bank_system.acctsDataSet.tblacctsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bank_system.acctsDataSet.tblacctsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bank_system.acctsDataSetTableAdapters.tblacctsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bank_system.acctsDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:bank_system.acctsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(bank_system.acctsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:bank_system.acctsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(bank_system.acctsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:bank_system.acctsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(bank_system.acctsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:bank_system.acctsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:bank_system.acctsDataSetTableAdapters.TableAdapterManager.UpdateAll(bank_system.acctsDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:bank_system.acctsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:bank_system.acctsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:bank_system.acctsDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:bank_system.acctsDataSet1.tblacctsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bank_system.acctsDataSet1.tblacctsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bank_system.acctsDataSet1.tblacctsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bank_system.acctsDataSet1TableAdapters.tblacctsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bank_system.acctsDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:bank_system.acctsDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(bank_system.acctsDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:bank_system.acctsDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(bank_system.acctsDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:bank_system.acctsDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(bank_system.acctsDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:bank_system.acctsDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:bank_system.acctsDataSet1TableAdapters.TableAdapterManager.UpdateAll(bank_system.acctsDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:bank_system.acctsDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:bank_system.acctsDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:bank_system.CUSDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:bank_system.CUSDataSet.itemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bank_system.CUSDataSet.itemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bank_system.CUSDataSet.itemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bank_system.CUSDataSetTableAdapters.itemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bank_system.CUSDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:bank_system.CUSDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(bank_system.CUSDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:bank_system.CUSDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(bank_system.CUSDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:bank_system.CUSDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(bank_system.CUSDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:bank_system.CUSDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:bank_system.CUSDataSetTableAdapters.TableAdapterManager.UpdateAll(bank_system.CUSDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:bank_system.CUSDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:bank_system.CUSDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:bank_system.transDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:bank_system.transDataSet.tbltransDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bank_system.transDataSet.tbltransRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bank_system.transDataSet.tbltransRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bank_system.transDataSetTableAdapters.tbltransTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bank_system.transDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:bank_system.transDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(bank_system.transDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:bank_system.transDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(bank_system.transDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:bank_system.transDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(bank_system.transDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:bank_system.transDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:bank_system.transDataSetTableAdapters.TableAdapterManager.UpdateAll(bank_system.transDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:bank_system.transDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:bank_system.transDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:bank_system.withdrawal_DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:bank_system.withdrawal_DataSet.tblwithdrawalDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bank_system.withdrawal_DataSet.tblwithdrawalRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bank_system.withdrawal_DataSet.tblwithdrawalRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bank_system.withdrawal_DataSetTableAdapters.tblwithdrawalTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bank_system.withdrawal_DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:bank_system.withdrawal_DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(bank_system.withdrawal_DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:bank_system.withdrawal_DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(bank_system.withdrawal_DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:bank_system.withdrawal_DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(bank_system.withdrawal_DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:bank_system.withdrawal_DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:bank_system.withdrawal_DataSetTableAdapters.TableAdapterManager.UpdateAll(bank_system.withdrawal_DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:bank_system.withdrawal_DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:bank_system.withdrawal_DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
