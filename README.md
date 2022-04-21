@@ -1,3 +1,3 @@
 # Banking-System
 
-project programmed using Visual basic and simple MS-Access for database. 
+project programmed using ```Visual basic.net``` and simple ```MS-Access for database```. 
